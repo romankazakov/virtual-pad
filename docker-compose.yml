@@ -1,0 +1,7 @@
+# первый порт это внешний
+version: '3.1'
+services:
+  vpad:
+    image: "romanya/virtual-pad"
+    ports:
+      - 8888:8080
